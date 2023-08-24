@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T16:11:35.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DivXJR75a7w1FW6Nl3bm" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T16:16:50.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="4Lbk5J9sVfhuLS9It9xc" version="21.6.9" type="github">
   <diagram name="Página-1" id="m3pQ4827RBEhcwZJHdCG">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,22 +17,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bIyVMuVGcHya3AF7Zjqz-5" value="R0 &amp;lt;= STRING addr&lt;br&gt;vetor_ini &amp;lt;= 0x200003BF&amp;nbsp;&lt;br&gt;maior_occ &amp;lt;= 0x20000500" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="150" width="150" height="60" as="geometry" />
+          <mxGeometry x="125" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bIyVMuVGcHya3AF7Zjqz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bIyVMuVGcHya3AF7Zjqz-7" target="bIyVMuVGcHya3AF7Zjqz-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bIyVMuVGcHya3AF7Zjqz-7" value="R1&amp;lt;=byte em *R0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="240" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bIyVMuVGcHya3AF7Zjqz-9" value="Incrementa endereço&lt;br&gt;vetor_ini+R1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="380" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bIyVMuVGcHya3AF7Zjqz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bIyVMuVGcHya3AF7Zjqz-11" target="bIyVMuVGcHya3AF7Zjqz-7">
+        <mxCell id="bIyVMuVGcHya3AF7Zjqz-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bIyVMuVGcHya3AF7Zjqz-9" target="bIyVMuVGcHya3AF7Zjqz-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bIyVMuVGcHya3AF7Zjqz-9" value="Incrementa endereço&lt;br&gt;vetor_ini+R1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bIyVMuVGcHya3AF7Zjqz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bIyVMuVGcHya3AF7Zjqz-11" target="bIyVMuVGcHya3AF7Zjqz-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bIyVMuVGcHya3AF7Zjqz-11" value="R1=0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="349" y="230" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bIyVMuVGcHya3AF7Zjqz-14" value="Não" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bIyVMuVGcHya3AF7Zjqz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bIyVMuVGcHya3AF7Zjqz-23" target="bIyVMuVGcHya3AF7Zjqz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bIyVMuVGcHya3AF7Zjqz-23" value="Incrementa R0 em 4" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
